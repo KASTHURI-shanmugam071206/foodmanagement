@@ -1,0 +1,14 @@
+{
+  "name": "foodbridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Food donation collection and distribution management system",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "start:server": "npm --prefix server start",
+    "test:server": "npm --prefix server test",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test": "npm --prefix server test"
+  }
+}
